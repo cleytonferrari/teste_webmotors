@@ -99,7 +99,7 @@ namespace Teste_WebMotors.RepositorioADO
                     Modelo = row["modelo"],
                     Versao = row["versao"],
                     Ano = int.Parse(!string.IsNullOrEmpty(row["ano"]) ? row["ano"] : "0"),
-                    Quilometragem = int.Parse(!string.IsNullOrEmpty(row["ano"]) ? row["ano"] : "0"),
+                    Quilometragem = int.Parse(!string.IsNullOrEmpty(row["quilometragem"]) ? row["quilometragem"] : "0"),
                     Observacao = row["observacao"],
                 };
                 anuncio.Add(temObjeto);
